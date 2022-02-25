@@ -1,0 +1,73 @@
+#teamMain{
+    height: 1500px;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+#Main{
+    margin-left: 250px;
+    margin-top: 50px;
+    height: 50%;
+    width: 70%;
+     /* border: 2px solid red; */
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    
+}
+
+#Team,#Team1{
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid teal; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+    
+    
+}
+#details{
+     display: flex; 
+     gap: 20px;
+     flex-wrap: wrap;
+}
+#popular>h1{
+    margin-left: 50px;
+}
+
+#popular{
+    
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.t1{
+    /* display: flex; */
+    padding: 10px;
+    height: 100px;
+    width: 30%;
+    /* border: 2px solid grey; */
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.ImgD{
+    height: 100%;
+    width: 30%;
+    /* border: 2px solid greenyellow; */
+    /* border-radius: 15px; */
+
+}
+.Head{
+    height: 100%;
+    width: 70%;
+    /* border: 2px solid greenyellow; */
+}
+.Head>h1{
+    margin-left: 10px;
+    font-style: italic;
+}
+
+/* #Team1{
+    height: 50%;
+    width: 100%;
+    border: 1px solid teal;
+} */

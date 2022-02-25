@@ -1,0 +1,85 @@
+#PlayerName{
+    /* border: 2px solid black; */
+    /* display: grid; */
+    display: flex;
+   
+   
+    /* grid-template-columns: repeat(2,25%); */
+    text-align: center;
+     width: 50%;  
+   margin-top: 40px;
+   flex-wrap: wrap;
+   margin-left: 60px;
+   border-radius: 5px;
+   
+   
+}
+.chotaDiv:nth-of-type(odd){
+    /* border-right: 1px solid black; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+
+.chotaDiv{
+    /* height: 250px;
+    width: 80%; */
+    /* border: 1px solid rgb(8, 8, 8); */
+   
+    flex: 40%;
+    /* border-bottom: 1px solid black; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+     /* border-right: 1px solid black;  */
+   
+    
+   
+}
+
+.playersImg{
+    border-radius: 80px;
+}
+
+#div{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+   
+    
+   
+}
+#playersmainDiv{
+   
+    margin-top: 40px; 
+     text-align: center; 
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+   
+      
+    width: 99%;
+    margin: auto;
+    gap: 15px;
+}
+#sideCard{
+   /* margin-top: 40px;  */
+    /* border: 1px solid black;  */
+    height: 350px;
+    width: 350px;
+    margin-left: 80px;
+   
+    margin-top: 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+li{
+    font-style: italic;
+    font-display: 40px;
+}
+#India{
+    border-radius: 5px;
+    margin-left: 30px;
+    width: 20px;
+}
+.im{
+    margin-top: 50px;
+}
+
+

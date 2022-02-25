@@ -1,0 +1,385 @@
+body {
+    margin: 0%;
+}
+
+#container {
+    /* height: 200px; */
+    padding: 10px;
+    width: 100%;
+    background-color: #038dcc;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* border: 3px solid black; */
+    margin: auto;
+}
+#smallDiv{
+    padding: 5px;
+    /* border: 2px solid rgb(14, 13, 13); */
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+
+}
+
+
+
+#navbar {
+    height: 50px;
+    width: 110%;
+   
+    display: flex;
+    gap: 10px;
+
+
+    background-color: #038dcc;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+.btn{
+    width: 90px;
+    padding: 10px;
+    border-radius: 3.5px;
+    border: 1px solid grey;
+    cursor: pointer;
+
+
+}
+
+.box {
+    cursor: pointer;
+    margin-top: 10px;
+
+
+    font-family: BentonSans, Arial, "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: white;
+
+    /* foBentonSans, Arial, "Noto Sans", sans-serif; */
+}
+
+#box1,
+#box2 {
+    margin-left: 100px;
+    
+}
+
+.dropDown {
+    display: inline-block;
+    position: relative;
+
+}
+
+.dropDown:hover .dropDown-content {
+    display: block;
+
+
+
+}
+
+.dropDown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    /* background-color: black; */
+
+
+}
+
+
+
+
+
+
+#leftBox {
+    height: 90%;
+    width: 50%;
+
+    margin-left: 250px;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    /* margin-top: 10px; */
+
+}
+.LogIMG{
+    height: 30px;
+    width: 100px;
+}
+
+#leftBox>div {
+    margin-top: 10px;
+    font-family: BentonSans, Arial, "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: white;
+}
+#BigDiv{
+    display: flex;
+    /* border: 2px solid black; */
+    gap: 10px;
+}
+#MiddleDiv{
+    width: 300px;
+    display: flex;
+    /* border: 2px solid black; */
+    
+    gap: 10px;
+    margin: auto;
+
+}
+.dropdown-content a:hover{
+    background-color: white;
+}
+.drop-down:hover .dropdown-content{
+    display: block;
+    z-index: -1;
+}
+.drop-down {
+    display: flex;
+    
+    /* margin-top: 25px; */
+    z-index: 1;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: 30px;
+    text-align: center;
+  }
+  .cat-div{
+      display: inline;
+      float: left;
+      width: 200px;
+      margin: 10px;
+      overflow: hidden;
+  }
+  .item-container{
+      display:flex;
+      justify-content: center;
+  }
+   ul li{
+      list-style: none;
+      padding: 5px;
+  }
+  .drop-down > a{
+      margin: 10px;
+      text-decoration: none;
+      color: white;
+  }
+  .catg{
+     color: rgb(255,151,151);
+     font-size: large;
+  }
+  .cat-div p,h4{
+      text-align: center;
+  }
+  .cat-div img{
+      height: 200px;
+      width: 100%;
+  }
+  ul li a{
+      text-decoration: none;
+  }
+  #Div1{
+      display: flex;
+      justify-content: center;
+      
+
+  }
+  #Land{
+      margin-top: 20px;
+      height: 1500px;
+      width: 100%;
+
+      /* border: 2px solid black; */
+      
+  }
+  #Land1{
+       margin-top: 10px;
+      margin-left: 50px; 
+      height: 80%;
+      width: 90%;
+      /* border: 1px solid red; */
+      display: flex;
+      gap: 20px;
+
+  }
+  #KeySeries{
+      margin-left: 50px;
+
+    height: 100%;
+    width: 20%;
+    /* border: 1px solid teal; */
+    
+
+  }
+  .Img1{
+      border-radius: 50px;
+  }
+  
+  #Key1,#App1{
+      height: 50px;
+      width: 100%;
+      /* border: 1px solid black;  */
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+      
+
+     
+  }
+  #states1>h4{
+    text-align: center;
+    font-weight: bold;
+   
+
+  }
+
+  #Key1>h4{
+      text-align: center;
+      font-weight: bold;
+      
+
+} 
+#App1>h4{
+    text-align: center;
+    font-weight: bold;
+
+}
+ #QuickLinks{
+      height: 40%;
+      width: 100%;
+      
+      /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+
+  }
+  #EspnApps{
+      /* text-align: center; */
+    height: 20%;
+    width: 100%;
+   
+
+  }
+  #followEspn{
+      /* text-align: center; */
+    height: 10%;
+    width: 100%;
+   
+
+  }
+  #Espn1{
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid black; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+  }
+  #states1{
+    height: 50px;
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+
+  }
+  #Espn1>h4{
+      text-align: center;
+      font-weight: bold;
+
+  }
+  #espnStates{
+    height: 19%;
+    width: 100%;
+   
+
+  }
+  /* #states{
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid black; */
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+
+  /* } */
+  #states>h4{
+      text-align: center;
+      font-weight: bold; 
+  }
+ 
+  #NewsChannel{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid teal; */
+
+  }
+  #NewsHeadles{
+    height: 100%;
+    width: 30%;
+    /* border-radius: 20px; */
+    /* border: 2px solid teal; */
+
+  }
+  #Imge1{
+      height: 450px;
+      width: 100%;
+      /* border: 2px solid red; */
+  }
+  #imgP{
+      height: 400px;
+      width: 100%;
+      /* margin-bottom: 10px; */
+      text-align: end;
+  }
+  #Details>p{
+      text-align: center;
+  }
+  .B{
+      margin-left: 10px;
+  }
+  #mainContainer>h1{
+      text-align: center;
+  }
+  .imgClass{
+      margin-left: 20px;
+  }
+  #pDiv>h3{
+      margin-left: 20px;
+  }
+  #pDiv>p{
+    margin-left: 20px;
+}
+  
+  
+  
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

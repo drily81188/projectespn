@@ -1,0 +1,59 @@
+#Livescore{
+    padding: 20px;
+    margin-top: 50px;
+    height: 1500px;
+    width: 100%;
+    /* border:  1px solid black; */
+    
+
+}
+#Live1{
+    margin-left: 90px;
+    height:  50px;
+    width: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    cursor: pointer;
+   /* gap: 10px; */
+}
+.Live:hover{
+    background-color: aqua;
+    border-bottom: 2px solid grey;
+
+}
+.Live{
+    height: 99%;
+    width: 40%;
+    /* border: 2px solid rgb(15, 13, 13); */
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+ .DivLive{
+    margin-left: 90px;
+    width: 80%;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+     
+    
+    /* border: 1px solid grey; */
+
+} 
+#FirstDiv{
+   
+     margin-left: 20px; 
+    display: flex;
+    gap: 20px;
+}
+#SecondT{
+     margin-left: 20px; 
+    display: flex;
+    gap: 20px;
+}
+#BtnDiv{
+     margin-left: 20px; 
+    display: flex;
+    gap: 10px;
+    border: none;
+
+}
+
